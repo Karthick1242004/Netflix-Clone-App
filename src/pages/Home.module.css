@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Grand+Hotel&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.main{
+   width: 100%;
+   height: 100vh;
+   background-image:linear-gradient(to bottom, rgba(34, 34, 34, 0.52), rgba(0, 0, 0, 0.73)),url('https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_small.jpg');
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+    position: absolute
+}
+.main1{
+    position: relative;
+}
+.navb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 110px; 
+}
+.navb h1{
+    color: rgb(237, 7, 7);
+    font-size: 45px;
+    font-weight: 700;
+}
+.navb1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.btn1{
+    width: 75px;
+    height: 34px;
+
+    padding-top: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+.btn1:active{
+    background-color: rgb(178, 3, 3);
+    color: rgb(233, 233, 233);
+}
+.sel{
+    width: 140px;
+    height: 33px;
+    background:transparent;
+    border: 0.2px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    color: white;
+    padding-left: 5px;
+    
+}
+.op{
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-top: 13%;
+    gap: 55px;
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cont1 h1{
+    color: white;
+    font-size: 50px;
+    font-weight:900;
+}
+.cont1 p{
+    font-size:28px;
+    font-weight: 500;
+    color: white;
+}
+.cont1 .p1{
+    font-size: 18px;
+}
+.mail{
+    width: 330px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: black;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn2{
+    background-color: rgb(220, 7, 7);
+    color: white;
+    width: 200px;
+    height: 53px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    border: none;
+    border-radius:3px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.btn2:active{
+    background-color: rgb(178, 3, 3);
+    color: rgb(233, 233, 233);
+}
